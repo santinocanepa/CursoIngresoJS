@@ -8,11 +8,11 @@ function mostrar()
 {
 	let nombre;
 
+	let apellido;
+
 	nombre = prompt("ingrese su nombre");
 
 	alert(nombre);
-
-	let apellido;
 
 	apellido = prompt("ingrese su apellido");
 
