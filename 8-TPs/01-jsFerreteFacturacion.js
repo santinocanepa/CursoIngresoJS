@@ -22,7 +22,7 @@ function Sumar ()
 
     resultadoSuma = precio1 + precio2 + precio3;
 
-    alert(resultadoSuma);
+    alert("la suma es " + resultadoSuma);
 }
 function Promedio () 
 {
@@ -45,7 +45,7 @@ function Promedio ()
 
     promedioFinal = promedio / 3;
 
-    alert(promedioFinal);
+    alert("el promedio es " + promedioFinal.toFixed(2));
 }
 function PrecioFinal () 
 {
@@ -68,5 +68,5 @@ function PrecioFinal ()
 
     mensajefinal = resultadoSuma + (resultadoSuma * 0.21);
 
-    alert(mensajefinal);
+    alert("el resultado es " + mensajefinal.toFixed(2));
 }

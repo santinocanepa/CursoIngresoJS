@@ -15,6 +15,6 @@ function mostrar()
 
 	nombremostrado = "usted se llama " + nombre + " y tiene " + edad + " años";
 
-	alert(nombremostrado)
+	alert(nombremostrado);
 }
 
